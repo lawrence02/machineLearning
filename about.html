@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <main>
+        <section>
+            <section id="signup">
+                <h2>Join Our Team</h2>
+                <form action="signup.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="expertise">Area of Expertise:</label>
+                    <select id="expertise" name="expertise">
+                        <option value="data">Data Science</option>
+                        <option value="engineering">Engineering</option>
+                        <option value="research">Research</option>
+                    </select>
+                    <label for="interests">Interests:</label>
+                    <input type="text" id="interests" name="interests">
+                    <input type="submit" value="Sign Up">
+
+                </form>
+            </section>
+
+           <section id="skills">
+                <h2>Share Your Skills</h2>
+                <form action="skills.php" method="post">
+                    <input type="submit" value="Update Profile">
+                </form>
+            </section>
+            <section id="volunteer">
+                <h2>Volunteer Your Time</h2>
+                <form action="volunteer.php" method="post">
+                                        <input type="submit" value="Sign Up to Help">
+                </form>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Contributing to ML</p>
+    </footer>
+</body>
+
+</html>
